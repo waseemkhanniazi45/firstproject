@@ -1,0 +1,170 @@
+
+/* ------------media query for menu --------------- */
+@media only screen and (max-width: 1143px) and (min-width: 801px) {
+    *{
+        font-size: 14px;
+    }
+    nav ul li{
+        margin-right: 0.9rem;
+    }
+}
+@media only screen and (max-width: 860px){
+    *{
+        font-size: 13px;
+    }
+
+    nav ul{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        max-height: 200px;
+        transition: max-height 1s;
+        top: 100%;
+        background: #333;
+        overflow: hidden;
+    }
+    nav ul li{
+        display: block;
+        /* margin-right: 50px; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+ 
+    }
+    .menu-btn{
+      visibility: inherit;
+        display: block;
+        cursor: pointer;
+    }
+    .info-2 {
+        text-align: center;
+      }
+      .title-p {
+        width: 400px;
+      }
+      .doctor-text .fa-brands{
+        height: 26px;
+      }
+      .footer-col-1 , .footer-col-2{
+              margin-bottom: 30px;
+      }
+.footer-col-3{
+        text-align: center;
+      }
+      .social .fa-brands{
+        height: 30px;
+      }
+      .doc-card{
+        margin-bottom: 20px;
+      }
+      .post{
+        margin-bottom: 20px;
+      }
+      .info{
+        text-align: center;
+      }
+      .banner-info{
+        text-align: center;
+      }
+      .video{
+        margin-right: 20px;
+      }
+      .card span{
+        font-size: 1.7rem;
+      }
+}
+@media only screen and (max-width: 600px){
+  .logo{
+    flex-basis: 100%;
+    text-align: center;
+  }
+    .banner-info{
+        flex: 100%;
+      }
+      .banner-img{
+        display: none;
+      }
+    .row{
+        text-align: center;
+    }
+    .col-2 ,.col-3{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .menu-btn{
+        position: absolute;
+        top: 10px;
+        left:  10px;
+        filter: contrast(#ffffff);
+    }
+    #search{
+        width: 120px;
+        height: 30px;
+    }
+    .btn {
+        height: 30px;
+        width: 40px;
+    }
+    .video {
+        margin-left: 0;
+        margin: 25px;
+    }
+    
+
+    .back-yellow {
+        width: 150px;
+        height: 150px;
+        background-color: #fcc302;
+        position: absolute;
+        bottom: -10px;
+        left: -15px;
+        z-index: -1;
+    }
+    .back-yellow-2 {
+        width: 150px;
+        height: 150px;
+        background-color: #fcc302;
+        position: absolute;
+        bottom: -10px;
+        right: -15px;
+        z-index: -1;
+    }
+    .info-2 {
+        text-align: center;
+      }
+      .info p{
+        width: 100%;
+      }
+      .title-p {
+        width: 300px;
+      }
+      .doc-card p {
+        width: 300px;
+        margin: auto;
+      }
+      .card span{
+        font-size: 1.7rem;
+      }
+      .doctor-text .fa-#rands{
+        height: 26px;
+      }
+      .footer-col-1 , .footer-col-2{
+              margin-bottom: 30px;
+      }
+.footer-col-3{
+        text-align: center;
+      }
+      .social .fa-brands{
+        height: 30px;
+      }
+      .search-web{
+        flex-basis: 100%;
+        justify-content: center;
+        margin: 0 20px;
+        display: flex;
+        height: 60px;
+        align-items: center;
+    }
+    #search {
+        flex-basis: 100%;
+    }
+}
